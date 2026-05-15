@@ -6,7 +6,6 @@ import jakarta.persistence.*;
 public class EmployeeModel {
     public EmployeeModel() {
     }
-
     public Long getId() {
         return id;
     }
@@ -51,7 +50,6 @@ public class EmployeeModel {
     }
     @Id
     private Long id;
-
      private String name;
      private String email;
      private String department;
